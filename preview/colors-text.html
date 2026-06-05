@@ -1,0 +1,26 @@
+<!-- @dsCard group="Colors" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0D0D0F; font-family: 'DM Sans', sans-serif; padding: 20px; }
+  .row { display: flex; flex-direction: column; gap: 10px; }
+  .item { display: flex; align-items: center; gap: 16px; padding: 10px 16px; background: #141418; border: 1px solid #2A2A35; border-radius: 10px; }
+  .bar { height: 6px; border-radius: 3px; }
+  .lbl { font-size: 11px; font-weight: 600; color: #8A8A9E; min-width: 80px; }
+  .hex { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #55556A; min-width: 72px; }
+  .var { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #7C6AF7; margin-left: auto; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="item"><div class="bar" style="width:64px;background:#F0EFF6;"></div><div class="lbl">Primary</div><div class="hex">#F0EFF6</div><span style="font-size:13px;color:#F0EFF6;flex:1;">Page title, values, table data</span><div class="var">--text-primary</div></div>
+    <div class="item"><div class="bar" style="width:64px;background:#8A8A9E;"></div><div class="lbl">Secondary</div><div class="hex">#8A8A9E</div><span style="font-size:13px;color:#8A8A9E;flex:1;">Labels, nav items, descriptions</span><div class="var">--text-secondary</div></div>
+    <div class="item"><div class="bar" style="width:64px;background:#55556A;"></div><div class="lbl">Tertiary</div><div class="hex">#55556A</div><span style="font-size:13px;color:#55556A;flex:1;">Timestamps, placeholders</span><div class="var">--text-tertiary</div></div>
+    <div class="item" style="gap:8px;"><span style="font-size:20px;font-weight:700;color:#F0EFF6;">PKR 842K</span><span style="font-size:12px;font-weight:500;color:#1DB87A;">↑ +8.2%</span><span style="font-size:13px;color:#8A8A9E;margin-left:16px;">Revenue</span><span style="font-size:11px;color:#55556A;margin-left:auto;font-family:'JetBrains Mono',monospace;">2 min ago</span></div>
+  </div>
+</body>
+</html>
