@@ -1,0 +1,37 @@
+<!-- @dsCard group="Components" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0D0D0F; font-family: 'DM Sans', sans-serif; padding: 20px; }
+  .wrap { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+  .badge { display: inline-flex; align-items: center; padding: 2px 10px; border-radius: 999px; font-size: 11px; font-weight: 600; border: 1px solid; white-space: nowrap; }
+  .dots { display: flex; gap: 20px; padding: 10px 14px; background: #141418; border: 1px solid #2A2A35; border-radius: 10px; align-items: center; }
+  .dot { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #8A8A9E; }
+  .dot-circle { width: 7px; height: 7px; border-radius: 50%; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="badge" style="background:#0F3D2A;color:#1DB87A;border-color:#1DB87A33;">Delivered</span>
+    <span class="badge" style="background:#0D2A4A;color:#3A8AE8;border-color:#3A8AE833;">Shipped</span>
+    <span class="badge" style="background:#2A2550;color:#7C6AF7;border-color:#7C6AF733;">Processing</span>
+    <span class="badge" style="background:#3D2D0A;color:#F5A623;border-color:#F5A62333;">Pending</span>
+    <span class="badge" style="background:#3D1414;color:#E2514A;border-color:#E2514A33;">Cancelled</span>
+    <span class="badge" style="background:#3D2D0A;color:#F5A623;border-color:#F5A62333;">Low Stock</span>
+    <span class="badge" style="background:#2A2550;color:#7C6AF7;border-color:#7C6AF733;">VIP</span>
+    <span class="badge" style="background:#0D2A4A;color:#3A8AE8;border-color:#3A8AE833;">New</span>
+    <span class="badge" style="background:#1C1C22;color:#8A8A9E;border-color:#2A2A35;">Regular</span>
+    <span class="badge" style="background:#0F3D2A;color:#1DB87A;border-color:#1DB87A33;">Connected</span>
+    <span class="badge" style="background:#3D1414;color:#E2514A;border-color:#E2514A33;">Disconnected</span>
+  </div>
+  <div class="dots">
+    <div class="dot"><div class="dot-circle" style="background:#1DB87A;"></div>Connected</div>
+    <div class="dot"><div class="dot-circle" style="background:#E2514A;"></div>Error</div>
+    <div class="dot"><div class="dot-circle" style="background:#F5A623;"></div>Pending</div>
+  </div>
+</body>
+</html>
