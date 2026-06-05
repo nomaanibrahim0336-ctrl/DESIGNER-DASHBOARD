@@ -1,0 +1,28 @@
+<!-- @dsCard group="Colors" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0D0D0F; font-family: 'DM Sans', sans-serif; padding: 20px; }
+  .row { display: flex; gap: 10px; }
+  .swatch { flex: 1; border-radius: 10px; overflow: hidden; border: 1px solid #2A2A35; }
+  .color-block { height: 56px; }
+  .info { padding: 10px 12px; background: #141418; }
+  .name { font-size: 12px; font-weight: 600; color: #F0EFF6; }
+  .hex  { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #55556A; margin-top: 2px; }
+  .var  { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #7C6AF7; margin-top: 2px; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="swatch"><div class="color-block" style="background:#0D0D0F"></div><div class="info"><div class="name">Base</div><div class="hex">#0D0D0F</div><div class="var">--bg-base</div></div></div>
+    <div class="swatch"><div class="color-block" style="background:#141418"></div><div class="info"><div class="name">Surface</div><div class="hex">#141418</div><div class="var">--bg-surface</div></div></div>
+    <div class="swatch"><div class="color-block" style="background:#1C1C22"></div><div class="info"><div class="name">Elevated</div><div class="hex">#1C1C22</div><div class="var">--bg-elevated</div></div></div>
+    <div class="swatch"><div class="color-block" style="background:#23232B"></div><div class="info"><div class="name">Hover</div><div class="hex">#23232B</div><div class="var">--bg-hover</div></div></div>
+  </div>
+</body>
+</html>
