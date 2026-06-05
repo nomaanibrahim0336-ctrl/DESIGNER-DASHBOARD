@@ -1,0 +1,29 @@
+<!-- @dsCard group="Components" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0D0D0F; font-family: 'DM Sans', sans-serif; padding: 20px; }
+  .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+  .btn { display: inline-flex; align-items: center; gap: 6px; border-radius: 8px; font-weight: 500; cursor: pointer; border: none; outline: none; font-family: 'DM Sans', sans-serif; }
+  .lbl { font-size: 10px; color: #55556A; min-width: 60px; }
+</style>
+</head>
+<body>
+  <div class="row"><div class="lbl">primary</div><button class="btn" style="padding:8px 16px;font-size:13px;background:#7C6AF7;color:#fff;">Export CSV</button></div>
+  <div class="row"><div class="lbl">secondary</div><button class="btn" style="padding:8px 16px;font-size:13px;background:transparent;color:#F0EFF6;border:1px solid #2A2A35;">Add Product</button></div>
+  <div class="row"><div class="lbl">ghost</div><button class="btn" style="padding:8px 16px;font-size:13px;background:transparent;color:#8A8A9E;">Filter</button></div>
+  <div class="row"><div class="lbl">danger</div><button class="btn" style="padding:8px 16px;font-size:13px;background:#3D1414;color:#E2514A;border:1px solid #E2514A33;">Delete</button></div>
+  <div class="row"><div class="lbl">success</div><button class="btn" style="padding:8px 16px;font-size:13px;background:#0F3D2A;color:#1DB87A;border:1px solid #1DB87A33;">Mark Delivered</button></div>
+  <div class="row" style="border-top:1px solid #1F1F28;padding-top:10px;">
+    <div class="lbl">sizes</div>
+    <button class="btn" style="padding:5px 12px;font-size:12px;background:#7C6AF7;color:#fff;">Small</button>
+    <button class="btn" style="padding:8px 16px;font-size:13px;background:#7C6AF7;color:#fff;">Medium</button>
+    <button class="btn" style="padding:10px 20px;font-size:14px;background:#7C6AF7;color:#fff;">Large</button>
+    <button class="btn" style="padding:8px 16px;font-size:13px;background:#7C6AF7;color:#fff;opacity:0.5;cursor:not-allowed;">Disabled</button>
+  </div>
+</body>
+</html>
