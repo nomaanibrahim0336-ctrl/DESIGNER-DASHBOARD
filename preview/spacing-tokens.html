@@ -1,0 +1,30 @@
+<!-- @dsCard group="Spacing" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0D0D0F; font-family: 'DM Sans', sans-serif; padding: 20px; }
+  .row { display: flex; align-items: flex-end; gap: 12px; margin-bottom: 12px; }
+  .item { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .bar { background: #7C6AF7; border-radius: 3px; width: 32px; }
+  .val { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #7C6AF7; }
+  .name { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #55556A; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="item"><div class="bar" style="height:4px;"></div><div class="val">4px</div><div class="name">--space-1</div></div>
+    <div class="item"><div class="bar" style="height:8px;"></div><div class="val">8px</div><div class="name">--space-2</div></div>
+    <div class="item"><div class="bar" style="height:12px;"></div><div class="val">12px</div><div class="name">--space-3</div></div>
+    <div class="item"><div class="bar" style="height:16px;"></div><div class="val">16px</div><div class="name">--space-4</div></div>
+    <div class="item"><div class="bar" style="height:20px;"></div><div class="val">20px</div><div class="name">--space-5</div></div>
+    <div class="item"><div class="bar" style="height:24px;"></div><div class="val">24px</div><div class="name">--space-6</div></div>
+    <div class="item"><div class="bar" style="height:32px;"></div><div class="val">32px</div><div class="name">--space-8</div></div>
+    <div class="item"><div class="bar" style="height:40px;background:#9180FF;"></div><div class="val">40px</div><div class="name">--space-10</div></div>
+    <div class="item"><div class="bar" style="height:48px;background:#9180FF;"></div><div class="val">48px</div><div class="name">--space-12</div></div>
+  </div>
+</body>
+</html>
